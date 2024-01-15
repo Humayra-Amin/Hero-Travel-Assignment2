@@ -141,3 +141,61 @@ main {
     font-size: 2.5rem;
     font-weight: 800;
 }
+
+/* destination style */
+
+.destination-content {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -55px;
+    gap: 24px;
+}
+
+.images .first-row,
+.second-row,
+.third-row {
+    display: flex;
+    gap: 24px;
+}
+
+.images span {
+    position: relative;
+}
+
+.first-row > span > p {
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    right: 42%;
+    top: 36%;
+}
+
+/* .first-row:hover {
+    opacity: 0.6;
+ } */
+
+.second-row > span > p {
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    right: 32%;
+    top: 36%;
+}
+
+.third-row > span > p {
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    right: 36%;
+    top: 36%;
+}
