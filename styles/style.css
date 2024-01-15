@@ -149,6 +149,18 @@ main {
     text-align: center;
 }
 
+.destination-content h1 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.destination-content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 .images {
     width: 100%;
     display: flex;
@@ -169,7 +181,7 @@ main {
     position: relative;
 }
 
-.first-row > span > p {
+.first-row>span>p {
     position: absolute;
     color: #ffffff;
     font-size: 1.8rem;
@@ -182,7 +194,7 @@ main {
     opacity: 0.6;
  } */
 
-.second-row > span > p {
+.second-row>span>p {
     position: absolute;
     color: #ffffff;
     font-size: 1.8rem;
@@ -191,11 +203,72 @@ main {
     top: 36%;
 }
 
-.third-row > span > p {
+.third-row>span>p {
     position: absolute;
     color: #ffffff;
     font-size: 1.8rem;
     font-weight: 800;
     right: 36%;
     top: 36%;
+}
+
+/* choose style */
+
+.choose-content {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.choose-content h1 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.choose-content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.choose-img {
+    margin-top: -60px;
+}
+
+.choose-img h3,p{
+    margin-left: 20px;
+}
+
+img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.two-box {
+    display: flex;
+    gap: 25px;
+
+}
+
+.first-box {
+    background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 16px;
+    width: 50%;
+}
+
+.second-box {
+    background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+    width: 50%;
+}
+
+.third-box {
+    background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    border-radius: 16px;
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 280px;
 }
