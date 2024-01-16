@@ -66,14 +66,36 @@ nav {
 
 /* banner style */
 
-.banner {
-    background-image: linear-gradient(rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0) 100%), url('../Images/banner.png');
-    background-repeat: no-repeat;
-    padding: 150px;
-    margin-left: 180px;
-    width: 820px;
-    height: 210px;
+.banner-image {
+    position: relative;
+}
+
+.image-banner {
+    position: absolute;
+    width: 80%;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 2px;
     border-radius: 20px;
+}
+
+.background-image {
+    background-image: linear-gradient(rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0) 100%);
+    position: absolute;
+    width: 80%;
+    height: 600px;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+
+.banner {
+    position: absolute;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner h1 {
@@ -81,7 +103,8 @@ nav {
     font-size: 4rem;
     font-weight: 800;
     text-align: center;
-    margin-top: -40px;
+    margin-top: -11px;
+    margin-left: 280px;
 }
 
 .banner p {
@@ -89,6 +112,7 @@ nav {
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
+    margin-left: 280px;
 }
 
 .form-part {
@@ -96,7 +120,7 @@ nav {
     display: flex;
     gap: 30px;
     padding: 18px;
-    margin-left: 40px;
+    margin-left: 270px;
     margin-top: 70px;
     border-radius: 8px;
 }
@@ -117,7 +141,10 @@ select {
 
 main {
     width: 78%;
-    margin: 100px auto;
+    margin-top: 700px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* popular tour */
@@ -482,7 +509,7 @@ form input {
 
 footer {
     background: rgba(19, 19, 24, 0.05);
-    width: 1460px;
+    width: 1490px;
     height: 500px;
 }
 
