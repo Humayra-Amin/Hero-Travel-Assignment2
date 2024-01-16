@@ -55,8 +55,8 @@
         width: 281%;
     }
 
-    .tour-content>ul li, .video-content>ul li
-    {
+    .tour-content>ul li,
+    .video-content>ul li {
         width: 315%;
     }
 
@@ -150,13 +150,30 @@
         margin-left: 116px;
     }
 
-    .videopart iframe{
+    .videopart iframe {
         margin-top: 1000px;
         width: 98%;
-        height: 367px;    
+        height: 367px;
     }
 
-    .newsletter{
-        grid-template-columns: repeat(1.1fr);
+    .newsletter {
+        grid-template-columns: repeat(1, 1fr);
     }
+
+    .form-section {
+        width: 55%;
+        margin-left: 89px;
+    }
+
+    form input,
+    .subscribe {
+        width: 99%;
+    }
+
+    .image-section img {
+        width: 56%;
+        height: 300px;
+        margin-left: 86px;
+    }
+
 }
