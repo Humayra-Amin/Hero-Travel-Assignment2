@@ -343,7 +343,7 @@ img {
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
-    margin-top: -15px;
+    margin-top: -28px;
 }
 
 .form-section h5 {
@@ -400,4 +400,53 @@ form input {
     font-size: 1.5rem;
     font-weight: 800;
     margin-top: -15px;
+}
+
+/* footer style */
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    width: 1460px;
+    height: 500px;
+}
+
+.footer-logo {
+    align-items: center;
+}
+
+.foot-logo {
+    margin-left: 553px;
+    margin-bottom: -150px;
+}
+
+.footer-logo h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-logo p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.social-links{
+display: flex;
+justify-content: center;
+margin-top: 35px;
+gap: 25px;
+}
+
+hr {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin-top: 46px;
+    width: 60%;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 46px;
 }
