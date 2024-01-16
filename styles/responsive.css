@@ -44,7 +44,8 @@
 
     .tour-content h1,
     .destination-content h1,
-    .choose-content h1 {
+    .choose-content h1,
+    .discount-content h1 {
         font-size: 1.4rem;
         width: 170%;
         margin-left: 20px;
@@ -54,7 +55,8 @@
         width: 281%;
     }
 
-    .tour-content>ul li {
+    .tour-content>ul li, .video-content>ul li
+    {
         width: 315%;
     }
 
@@ -69,7 +71,8 @@
     }
 
     .destination-content p,
-    .choose-content p {
+    .choose-content p,
+    .discount-content p {
         font-size: 1rem;
         width: 125%;
         margin-left: 87px;
@@ -94,7 +97,7 @@
     .bandar {
         width: 99%;
         margin-left: 87px;
-        height: 300px;
+        height: 200px;
     }
 
     .first-row>span>p,
@@ -112,8 +115,48 @@
         flex-direction: column;
     }
 
-    .first-box,.second-box, .third-box {
+    .first-box,
+    .second-box,
+    .third-box {
         margin-left: 91px;
         width: 124%;
+    }
+
+    .first-img {
+        height: 500px;
+        margin-left: 128px;
+    }
+
+    .card1-part {
+        width: 80%;
+        top: 19%;
+        left: 40%;
+    }
+
+    .icons {
+        margin-top: 22px;
+    }
+
+    .video-content h1 {
+        font-size: 1.4rem;
+        width: 200%;
+        margin-left: 114px;
+        line-height: normal;
+    }
+
+    .video-content p {
+        font-size: 1rem;
+        width: 300%;
+        margin-left: 116px;
+    }
+
+    .videopart iframe{
+        margin-top: 1000px;
+        width: 98%;
+        height: 367px;    
+    }
+
+    .newsletter{
+        grid-template-columns: repeat(1.1fr);
     }
 }
