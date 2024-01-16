@@ -1,0 +1,119 @@
+@media screen and (max-width: 576px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .form-part {
+        flex-direction: column;
+        width: 80%;
+        margin-left: 287px;
+    }
+
+    .image-banner,
+    .background-image,
+    .banner {
+        height: 700px;
+        width: 90%;
+    }
+
+    .banner h1 {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+    .banner p {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .form-part input,
+    select,
+    .btn-primary {
+        width: auto;
+    }
+
+    main {
+        margin-top: 800px;
+    }
+
+    .popular-tour {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .tour-content h1,
+    .destination-content h1,
+    .choose-content h1 {
+        font-size: 1.4rem;
+        width: 170%;
+        margin-left: 20px;
+    }
+
+    .tour-content p {
+        width: 281%;
+    }
+
+    .tour-content>ul li {
+        width: 315%;
+    }
+
+    .tour-content .btn-primary {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .popular-tour img {
+        width: 127%;
+        margin-left: 256px;
+    }
+
+    .destination-content p,
+    .choose-content p {
+        font-size: 1rem;
+        width: 125%;
+        margin-left: 87px;
+    }
+
+    .images {
+        width: 127%;
+    }
+
+    .images .first-row,
+    .second-row,
+    .third-row {
+        flex-direction: column;
+    }
+
+    .maldives,
+    .indo,
+    .srilanka,
+    .NA,
+    .kash,
+    .bangla,
+    .bandar {
+        width: 99%;
+        margin-left: 87px;
+        height: 300px;
+    }
+
+    .first-row>span>p,
+    .second-row>span>p,
+    .third-row>span>p {
+        right: 13%;
+    }
+
+    .choose-img {
+        width: auto;
+        height: auto;
+    }
+
+    .two-box {
+        flex-direction: column;
+    }
+
+    .first-box,.second-box, .third-box {
+        margin-left: 91px;
+        width: 124%;
+    }
+}
