@@ -2,13 +2,17 @@
 
     .header,
     .popular-tour {
-        width: 100%;
+        width: 90%;
         padding: 0;
         margin: 0;
     }
 
     .navbar {
         display: none;
+    }
+
+    .menubar{
+        display: block;
     }
 
     .form-part {
@@ -206,6 +210,239 @@
 
     .foot-logo {
         margin-left: 67px;
+    }
+
+    .footer-logo h1 {
+        margin-left: 85px;
+    }
+
+    .footer-logo p {
+        width: 80%;
+        text-align: start;
+        margin-left: 55px;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+
+    .header,
+    .popular-tour {
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .menubar{
+        display: block;
+    }
+
+    .form-part {
+        flex-direction: column;
+        width: 80%;
+        margin-left: 287px;
+    }
+
+    .image-banner,
+    .background-image,
+    .banner {
+        height: 700px;
+        width: 90%;
+    }
+
+    .banner h1,
+    .logo p {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+    .banner p {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .form-part input,
+    select,
+    .btn-primary {
+        width: auto;
+    }
+
+    main {
+        margin-top: 800px;
+    }
+
+    .popular-tour {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .tour-content h1,
+    .destination-content h1,
+    .choose-content h1,
+    .discount-content h1 {
+        font-size: 1.4rem;
+        width: 170%;
+        margin-left: -78px;
+    }
+
+    .tour-content p {
+        width: 281%;
+        margin-left: -97px;
+    }
+
+    .tour-content>ul li,
+    .video-content>ul li {
+        width: 332%;
+        margin-left: -86px;
+    }
+
+    .tour-content .btn-primary {
+        margin-left: -88px;
+        width: 100%;
+    }
+
+    .popular-tour img {
+        width: 127%;
+        margin-left: 256px;
+    }
+
+    .destination-content p,
+    .choose-content p,
+    .discount-content p {
+        font-size: 1rem;
+        width: 125%;
+        margin-left: 56px;
+    }
+
+    .images {
+        width: 127%;
+    }
+
+    .images .first-row,
+    .second-row,
+    .third-row {
+        flex-direction: column;
+    }
+
+    .maldives,
+    .indo,
+    .srilanka,
+    .NA,
+    .kash,
+    .bangla,
+    .bandar {
+        width: 778px;
+        margin-left: 88px;
+        height: 395px;
+    }
+
+    .first-row>span>p,
+    .second-row>span>p,
+    .third-row>span>p {
+        right: 38%;
+    }
+
+    .choose-img {
+        width: auto;
+        height: auto;
+    }
+
+    .two-box {
+        flex-direction: column;
+    }
+
+    .first-box,
+    .second-box,
+    .third-box {
+        margin-left: 52px;
+        width: 124%;
+        height: 250px;
+    }
+
+    .first-img {
+        height: 500px;
+        margin-left: 128px;
+    }
+
+    .card1-part {
+        width: 80%;
+        top: 19%;
+        left: 31%;
+    }
+
+    .image1 img {
+        width: 106%;
+    }
+
+    .icons {
+        margin-top: 22px;
+    }
+
+    .video-content h1 {
+        font-size: 1.4rem;
+        width: 200%;
+        margin-left: 13px;
+        line-height: normal;
+    }
+
+    .video-content p {
+        font-size: 1rem;
+        width: 300%;
+        margin-left: -100px;
+    }
+
+    .video-content .btn-primary {
+        margin-left: -92px;
+        width: 100%;
+    }
+
+    .videopart {
+        flex-direction: column;
+    }
+
+    .videopart iframe {
+        margin-top: 34px;
+        width: 124%;
+        height: 367px;
+        margin-left: 253px;
+    }
+
+    .newsletter {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .form-section {
+        width: 100%;
+        margin-left: 89px;
+    }
+
+    form input,
+    .subscribe {
+        width: 99%;
+    }
+
+    .image-section img {
+        width: 100%;
+        height: 400px;
+        margin-left: 86px;
+    }
+
+    .travel-badge{
+        margin: -198px 366px 0px 100px;
+    }
+
+    footer {
+        width: 90%;
+        height: 950px;
+        margin-left: 172px;
+    }
+
+    .foot-logo {
+        margin-left: 215px;
     }
 
     .footer-logo h1 {
