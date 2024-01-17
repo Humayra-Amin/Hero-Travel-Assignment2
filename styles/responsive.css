@@ -11,7 +11,7 @@
         display: none;
     }
 
-    .menubar{
+    .menubar {
         display: block;
     }
 
@@ -198,8 +198,10 @@
         margin-left: 86px;
     }
 
-    .travel-badge{
+    .travel-badge {
         margin: -198px 366px 0px 100px;
+        position: relative;
+        left: 134px;
     }
 
     footer {
@@ -237,7 +239,7 @@
         display: none;
     }
 
-    .menubar{
+    .menubar {
         display: block;
     }
 
@@ -431,8 +433,10 @@
         margin-left: 86px;
     }
 
-    .travel-badge{
+    .travel-badge {
         margin: -198px 366px 0px 100px;
+        position: relative;
+        left: 421px;
     }
 
     footer {
