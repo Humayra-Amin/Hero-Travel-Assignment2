@@ -11,10 +11,6 @@
         display: none;
     }
 
-    /* .logo p{
-        font-size: 1.3rem;
-    } */
-
     .form-part {
         flex-direction: column;
         width: 80%;
@@ -198,18 +194,18 @@
         margin-left: 86px;
     }
 
-    /* .travel-badge{
-        display: none;
-    } */
+    .travel-badge{
+        margin: -198px 366px 0px 100px;
+    }
 
     footer {
-        width: 128%;
+        width: 104%;
         height: 800px;
         margin-left: 122px;
     }
 
     .foot-logo {
-        margin-left: 120px;
+        margin-left: 67px;
     }
 
     .footer-logo h1 {
@@ -221,5 +217,4 @@
         text-align: start;
         margin-left: 55px;
     }
-
 }
